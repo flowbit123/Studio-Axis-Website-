@@ -1,27 +1,6 @@
 import AnimatedSection from '../components/AnimatedSection';
 import { Link } from 'react-router-dom';
 
-const team = [
-  {
-    name: 'Elena Vasquez',
-    role: 'Principal Architect & Founder',
-    image: 'https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&q=80',
-    bio: 'Yale School of Architecture. 20 years shaping civic and residential landmarks across three continents.',
-  },
-  {
-    name: 'Marcus Chen',
-    role: 'Partner, Structural Design',
-    image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&q=80',
-    bio: 'MIT graduate with deep expertise in engineered timber and adaptive reuse projects.',
-  },
-  {
-    name: 'Sophia Adler',
-    role: 'Partner, Interior Architecture',
-    image: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=400&q=80',
-    bio: "Parsons School of Design. Leads the firm's bespoke interior practice and material research.",
-  },
-];
-
 const values = [
   { title: 'Material Honesty', desc: 'We let materials speak truthfully. No ornamental concealment — only authentic expression of structure and substance.' },
   { title: 'Contextual Sensitivity', desc: 'Every site carries a story. We listen before we draw, ensuring each project belongs to its place and time.' },
